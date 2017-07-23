@@ -1,0 +1,11 @@
+.title {
+  color: red;
+  border: 1px solid gray;
+  padding: 15px;
+  margin: 5px; }
+
+.theory {
+  color: green;
+  border: 1px solid blue;
+  padding: 15px;
+  margin-bottom: 15px; }

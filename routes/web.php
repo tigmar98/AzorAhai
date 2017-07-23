@@ -18,3 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/theories/new', 'TheoriesController@create');
+Route::post('/theories/new', 'TheoriesController@store');
+Route::get('/theories', 'TheoriesController@showAllTheories');
